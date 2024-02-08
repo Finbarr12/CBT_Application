@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import pix from "../assets/exam.jpg";
+import InputForm from "../components/InputForm";
 const WelcomePage = () => {
   return (
     <>
@@ -8,9 +9,11 @@ const WelcomePage = () => {
           <Left>
             <h1>Use of English (GST 104)</h1>
             <p>Online CBT Examination</p>
+            <span>GoodLuck 👍!!!</span>
           </Left>
           <Right>
             <h3>Enter Your Credentials</h3>
+            <InputForm />
           </Right>
         </Wrapper>
       </Container>
@@ -32,11 +35,17 @@ const Left = styled.div`
 
   p {
     font-size: 15px;
+    margin-bottom: 300px;
+  }
+
+  span {
+    font-size: 25px;
   }
 `;
 const Right = styled.div`
   color: white;
   margin-right: 89px;
+  margin-top: 250px;
 `;
 
 const Wrapper = styled.div`
