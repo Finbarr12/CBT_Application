@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import WelcomePage from "../assets/pages/WelcomePage";
+import WelcomePage from "../pages/WelcomePage";
 
 export const Mainroutes = createBrowserRouter([
   {
