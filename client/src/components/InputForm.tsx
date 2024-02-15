@@ -7,7 +7,7 @@ const InputForm = () => {
         <input type="text" placeholder="Name" />
         <input type="text" placeholder="Email" />
         <input type="text" placeholder="Matric Number" />
-        <button>Get Started</button>
+        <button>Submit</button>
       </Container>
     </>
   );
