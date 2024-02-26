@@ -26,7 +26,7 @@ export default WelcomePage;
 const Left = styled.div`
   color: white;
   margin-top: 250px;
-  margin-left: 89px;
+  margin-left: 159px;
 
   h1 {
     margin: 0;
@@ -44,7 +44,7 @@ const Left = styled.div`
 `;
 const Right = styled.div`
   color: white;
-  margin-right: 89px;
+  margin-right: 159px;
   margin-top: 250px;
 `;
 
