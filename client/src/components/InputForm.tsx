@@ -4,10 +4,10 @@ const InputForm = () => {
   return (
     <>
       <Container>
-        <input type="text" placeholder="Enter Your Full name" />
-        <input type="text" placeholder="Enter Your Email" />
-        <input type="text" placeholder="Enter Your Matric Number" />
-        <button>Get Started</button>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Matric Number" />
+        <button>Submit</button>
       </Container>
     </>
   );
