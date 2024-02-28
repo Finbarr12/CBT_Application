@@ -65,6 +65,11 @@
     "correctAnswer": "Delighted"
   },
   {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "correctAnswer": "Mars"
+  },
+  {
     "question": "MongoDb is a _______ database",
     "options": ["NoSql", "Sql", "Dql", "Table"],
     "correctAnswer": "NoSql"
