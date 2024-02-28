@@ -35,7 +35,6 @@ const Left = styled.div`
 
   p {
     font-size: 15px;
-    margin-bottom: 300px;
   }
 
   span {

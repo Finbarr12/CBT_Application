@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const InputForm = () => {
   return (
@@ -7,7 +8,9 @@ const InputForm = () => {
         <input type="text" placeholder="Name" />
         <input type="text" placeholder="Email" />
         <input type="text" placeholder="Matric Number" />
+        <Link to={"otp-input"}>
         <button>Submit</button>
+        </Link>
       </Container>
     </>
   );
