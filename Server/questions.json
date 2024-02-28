@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Berlin", "Paris", "Madrid", "Rome"],
+    "correctAnswer": "Paris"
+  },
+  {
+    "question": "What is the capital of Nigeria?",
+    "options": ["Lome", "Paris", "Abuja", "Rome"],
+    "correctAnswer": "Abuja"
+  },
+  {
+    "question": "What Language is spoken in the Eastern Part of Nigeria",
+    "options": ["Yoruba", "Igbo", "Efik", "Urhobo"],
+    "correctAnswer": "Igbo"
+  },
+  {
+    "question": "Which Nation is the Current Football World Champion",
+    "options": ["Chile", "Denmark", "Argentina", "USA"],
+    "correctAnswer": "Argentina"
+  },
+  {
+    "question": "The tallest Mountain in the world is _______",
+    "options": [
+      "Mount Everest",
+      "Mount Kilmanjaro",
+      "Mount Olives",
+      "Mount Horeb"
+    ],
+    "correctAnswer": "Igbo"
+  },
+  {
+    "question": "Who is the current balon d'or holder",
+    "options": [
+      "Christaino Ronaldo",
+      "Lionel Messi",
+      "Karim Benzema",
+      "Kylian Mbappe"
+    ],
+    "correctAnswer": "Lionel Messi"
+  },
+  {
+    "question": "Who is the world's richest man",
+    "options": [
+      "Elon Musk",
+      "Aliko Dangote",
+      "Mark Zukerberg",
+      "Micheal d'Angelo"
+    ],
+    "correctAnswer": "Elon Musk"
+  },
+  {
+    "question": "Who is the President of USA?",
+    "options": [
+      "President Bill Clinton",
+      "President Donald Trump",
+      "President Kegan Paul",
+      "President Joe Biden"
+    ],
+    "correctAnswer": "President Joe Biden"
+  },
+  {
+    "question": "What is the synonym of happy",
+    "options": ["Sad", "Pathetic", "Delighted", "Uplifted"],
+    "correctAnswer": "Delighted"
+  },
+  {
+    "question": "MongoDb is a _______ database",
+    "options": ["NoSql", "Sql", "Dql", "Table"],
+    "correctAnswer": "NoSql"
+  },
+  {
+    "question": "The sum of 5 and 5 is _______",
+    "options": [10, 5, 70, 0],
+    "correctAnswer": 10
+  },
+  {
+    "question": "Which programming language is this app written in?",
+    "options": ["JavaScript", "Python", "Java", "C#"],
+    "correctAnswer": "JavaScript"
+  }
+]
