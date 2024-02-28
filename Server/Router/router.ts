@@ -9,6 +9,6 @@ const router = Router();
 
 router.post("/createStudent", createStudent);
 router.get("/getQuestions", getQuestions);
-router.post("/submitanswers", submitAnswers);
+router.post("/submitanswers/:userId", submitAnswers);
 
 export default router;

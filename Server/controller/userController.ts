@@ -26,7 +26,7 @@ export const createStudent = async (req: Request, res: Response) => {
 
 export const getQuestions = async (req: Request, res: Response) => {
   try {
-    const randomQuestions = getRandomQuestions(5);
+    const randomQuestions = getRandomQuestions(20);
 
     return res.status(200).json({
       message: "Questions Gotten successfully",
