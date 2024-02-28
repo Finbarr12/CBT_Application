@@ -69,7 +69,12 @@ export const submitAnswers = async (req: Request, res: Response) => {
       message: `Student has submitted`,
       data: student,
     });
-  } catch (error) {}
+  } catch (error) {
+    return res.status(400).json({
+      message: "An error occured",
+      error: error,
+    });
+  }
 };
 
 function getRandomQuestions(count: any) {
