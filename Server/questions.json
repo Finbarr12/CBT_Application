@@ -84,211 +84,184 @@
     "options": ["JavaScript", "Python", "Java", "C#"],
     "correctAnswer": "JavaScript"
   },
-  [
-    {
-      "question": "What is the capital of France?",
-      "options": ["London", "Berlin", "Madrid", "Paris"],
-      "correctAnswer": "Paris"
-    },
-    {
-      "question": "Which planet is known as the Red Planet?",
-      "options": ["Earth", "Mars", "Venus", "Jupiter"],
-      "correctAnswer": "Mars"
-    },
-    {
-      "question": "Who wrote 'Romeo and Juliet'?",
-      "options": [
-        "Charles Dickens",
-        "William Shakespeare",
-        "Jane Austen",
-        "Mark Twain"
-      ],
-      "correctAnswer": "William Shakespeare"
-    },
-    {
-      "question": "What is the largest mammal in the world?",
-      "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
-      "correctAnswer": "Blue Whale"
-    },
-    {
-      "question": "What is the square root of 64?",
-      "options": ["8", "6", "10", "4"],
-      "correctAnswer": "8"
-    },
-    {
-      "question": "In which year did World War II end?",
-      "options": ["1945", "1939", "1950", "1940"],
-      "correctAnswer": "1945"
-    },
-    {
-      "question": "Who painted the Mona Lisa?",
-      "options": [
-        "Vincent van Gogh",
-        "Pablo Picasso",
-        "Leonardo da Vinci",
-        "Claude Monet"
-      ],
-      "correctAnswer": "Leonardo da Vinci"
-    },
-    {
-      "question": "What is the currency of Japan?",
-      "options": ["Yuan", "Won", "Yen", "Ringgit"],
-      "correctAnswer": "Yen"
-    },
-    {
-      "question": "Which is the largest ocean on Earth?",
-      "options": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Southern Ocean",
-        "Pacific Ocean"
-      ],
-      "correctAnswer": "Pacific Ocean"
-    },
-    {
-      "question": "What is the powerhouse of the cell?",
-      "options": [
-        "Nucleus",
-        "Mitochondria",
-        "Ribosome",
-        "Endoplasmic Reticulum"
-      ],
-      "correctAnswer": "Mitochondria"
-    },
-    {
-      "question": "Who wrote 'To Kill a Mockingbird'?",
-      "options": [
-        "J.K. Rowling",
-        "Harper Lee",
-        "George Orwell",
-        "Ernest Hemingway"
-      ],
-      "correctAnswer": "Harper Lee"
-    },
-    {
-      "question": "What is the capital of Australia?",
-      "options": ["Sydney", "Canberra", "Melbourne", "Perth"],
-      "correctAnswer": "Canberra"
-    },
-    {
-      "question": "Which gas do plants absorb from the atmosphere?",
-      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-      "correctAnswer": "Carbon Dioxide"
-    },
-    {
-      "question": "What is the speed of light?",
-      "options": [
-        "300,000 km/s",
-        "150,000 km/s",
-        "500,000 km/s",
-        "750,000 km/s"
-      ],
-      "correctAnswer": "300,000 km/s"
-    },
-    {
-      "question": "Who wrote '1984'?",
-      "options": [
-        "Aldous Huxley",
-        "Ray Bradbury",
-        "George Orwell",
-        "Philip K. Dick"
-      ],
-      "correctAnswer": "George Orwell"
-    },
-    {
-      "question": "What is the largest organ in the human body?",
-      "options": ["Heart", "Lung", "Brain", "Skin"],
-      "correctAnswer": "Skin"
-    },
-    {
-      "question": "Which is the smallest prime number?",
-      "options": ["1", "2", "3", "5"],
-      "correctAnswer": "2"
-    },
-    {
-      "question": "Who developed the theory of relativity?",
-      "options": [
-        "Isaac Newton",
-        "Albert Einstein",
-        "Galileo Galilei",
-        "Stephen Hawking"
-      ],
-      "correctAnswer": "Albert Einstein"
-    },
-    {
-      "question": "What is the chemical symbol for gold?",
-      "options": ["Au", "Ag", "Fe", "Cu"],
-      "correctAnswer": "Au"
-    },
-    {
-      "question": "Which continent is known as the 'Land of Kangaroos'?",
-      "options": ["North America", "Africa", "South America", "Australia"],
-      "correctAnswer": "Australia"
-    },
-    {
-      "question": "What is the capital of Canada?",
-      "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
-      "correctAnswer": "Ottawa"
-    },
-    {
-      "question": "Who is the author of 'The Great Gatsby'?",
-      "options": [
-        "F. Scott Fitzgerald",
-        "Ernest Hemingway",
-        "J.D. Salinger",
-        "Mark Twain"
-      ],
-      "correctAnswer": "F. Scott Fitzgerald"
-    },
-    {
-      "question": "Which is the largest land mammal?",
-      "options": ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"],
-      "correctAnswer": "Elephant"
-    },
-    {
-      "question": "What is the powerhouse of the cell?",
-      "options": [
-        "Nucleus",
-        "Mitochondria",
-        "Ribosome",
-        "Endoplasmic Reticulum"
-      ],
-      "correctAnswer": "Mitochondria"
-    },
-    {
-      "question": "Who discovered penicillin?",
-      "options": [
-        "Marie Curie",
-        "Alexander Fleming",
-        "Louis Pasteur",
-        "Joseph Lister"
-      ],
-      "correctAnswer": "Alexander Fleming"
-    },
-    {
-      "question": "What is the square of 9?",
-      "options": ["72", "81", "64", "49"],
-      "correctAnswer": "81"
-    },
-    {
-      "question": "Which is the longest river in the world?",
-      "options": [
-        "Amazon River",
-        "Nile River",
-        "Yangtze River",
-        "Ganges River"
-      ],
-      "correctAnswer": "Nile River"
-    },
-    {
-      "question": "Who painted the 'Starry Night'?",
-      "options": [
-        "Pablo Picasso",
-        "Vincent van Gogh",
-        "Leonardo da Vinci",
-        "Claude Monet"
-      ],
-      "correctAnswer": "Vincent van Gogh"
-    }
-  ]
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "correctAnswer": "Mars"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "Mark Twain"
+    ],
+    "correctAnswer": "William Shakespeare"
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
+    "correctAnswer": "Blue Whale"
+  },
+  {
+    "question": "What is the square root of 64?",
+    "options": ["8", "6", "10", "4"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "options": ["1945", "1939", "1950", "1940"],
+    "correctAnswer": "1945"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "correctAnswer": "Leonardo da Vinci"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": ["Yuan", "Won", "Yen", "Ringgit"],
+    "correctAnswer": "Yen"
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Southern Ocean",
+      "Pacific Ocean"
+    ],
+    "correctAnswer": "Pacific Ocean"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": [
+      "J.K. Rowling",
+      "Harper Lee",
+      "George Orwell",
+      "Ernest Hemingway"
+    ],
+    "correctAnswer": "Harper Lee"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": ["Sydney", "Canberra", "Melbourne", "Perth"],
+    "correctAnswer": "Canberra"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correctAnswer": "Carbon Dioxide"
+  },
+  {
+    "question": "What is the speed of light?",
+    "options": ["300,000 km/s", "150,000 km/s", "500,000 km/s", "750,000 km/s"],
+    "correctAnswer": "300,000 km/s"
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "options": [
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "George Orwell",
+      "Philip K. Dick"
+    ],
+    "correctAnswer": "George Orwell"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Heart", "Lung", "Brain", "Skin"],
+    "correctAnswer": "Skin"
+  },
+  {
+    "question": "Which is the smallest prime number?",
+    "options": ["1", "2", "3", "5"],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking"
+    ],
+    "correctAnswer": "Albert Einstein"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Fe", "Cu"],
+    "correctAnswer": "Au"
+  },
+  {
+    "question": "Which continent is known as the 'Land of Kangaroos'?",
+    "options": ["North America", "Africa", "South America", "Australia"],
+    "correctAnswer": "Australia"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+    "correctAnswer": "Ottawa"
+  },
+  {
+    "question": "Who is the author of 'The Great Gatsby'?",
+    "options": [
+      "F. Scott Fitzgerald",
+      "Ernest Hemingway",
+      "J.D. Salinger",
+      "Mark Twain"
+    ],
+    "correctAnswer": "F. Scott Fitzgerald"
+  },
+  {
+    "question": "Which is the largest land mammal?",
+    "options": ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"],
+    "correctAnswer": "Elephant"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": [
+      "Marie Curie",
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Joseph Lister"
+    ],
+    "correctAnswer": "Alexander Fleming"
+  },
+  {
+    "question": "What is the square of 9?",
+    "options": ["72", "81", "64", "49"],
+    "correctAnswer": "81"
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon River", "Nile River", "Yangtze River", "Ganges River"],
+    "correctAnswer": "Nile River"
+  },
+  {
+    "question": "Who painted the 'Starry Night'?",
+    "options": [
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "correctAnswer": "Vincent van Gogh"
+  }
 ]
