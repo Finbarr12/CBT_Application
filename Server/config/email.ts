@@ -10,3 +10,28 @@ const GOOGLE_REDIRECT = "https://developers.google.com/oauthplayground";
 
 const oAuth = new google.auth.OAuth2(GOOGLE_ID, GOOGLE_SECRET, GOOGLE_REDIRECT);
 oAuth.setCredentials({ access_token: GOOGLE_REFRESHTOKEN });
+
+export const sendMail = async (email, to, subject, messages) => {
+  const getAccessToken: any = (await oAuth.getAccessToken()).token;
+
+  const transport = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      type: "OAuth2",
+      user: "ogbonnafinbarr@gmail.com",
+      clientId: GOOGLE_ID,
+      clientSecret: GOOGLE_SECRET,
+      refreshToken: GOOGLE_REFRESHTOKEN,
+      accessToken: getAccessToken,
+    },
+  });
+
+  const message = {
+    from: email,
+    to: to,
+    subject: subject,
+    text: messages,
+  };
+
+  transport.sendMail(message);
+};
