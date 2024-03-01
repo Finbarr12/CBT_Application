@@ -11,7 +11,7 @@ const GOOGLE_REDIRECT = "https://developers.google.com/oauthplayground";
 const oAuth = new google.auth.OAuth2(GOOGLE_ID, GOOGLE_SECRET, GOOGLE_REDIRECT);
 oAuth.setCredentials({ access_token: GOOGLE_REFRESHTOKEN });
 
-export const sendMail = async (email, to, subject, messages) => {
+export const sendMail = async (to, subject, messages) => {
   const getAccessToken: any = (await oAuth.getAccessToken()).token;
 
   const transport = nodemailer.createTransport({
@@ -27,7 +27,7 @@ export const sendMail = async (email, to, subject, messages) => {
   });
 
   const message = {
-    from: email,
+    from: `<exam@name.io>`,
     to: to,
     subject: subject,
     text: messages,

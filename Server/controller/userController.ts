@@ -1,12 +1,14 @@
 import { Request, Response } from "express";
 import userModel from "../model/userModel";
+import cron from "node-cron";
+import { sendMail } from "../config/email";
 
 const questions = require("../questions.json");
 
 export const createStudent = async (req: Request, res: Response) => {
   const { name, email, matricNumber } = req.body;
   try {
-    let newStudent = userModel.create({
+    let newStudent = await userModel.create({
       name,
       email,
       matricNumber,
@@ -45,7 +47,7 @@ export const submitAnswers = async (req: Request, res: Response) => {
     const { answers } = req.body;
     const { userId } = req.params;
 
-    const getuser = userModel.findById(userId);
+    const getuser = await userModel.findById(userId);
 
     if (!getuser) {
       return res.status(404).json({
@@ -59,11 +61,19 @@ export const submitAnswers = async (req: Request, res: Response) => {
 
     const score = calculateScore(answers, correctAnswers);
 
-    const student = userModel.findByIdAndUpdate(
+    const student = await userModel.findByIdAndUpdate(
       userId,
       { score },
       { new: true }
     );
+
+    cron.schedule("0 0 * * *", () => {
+      sendMail(
+        student?.email,
+        `<h1>Your exam result:</h1>`,
+        `Your exam score is ${student?.score}`
+      );
+    });
 
     return res.status(200).json({
       message: `Student has submitted`,
