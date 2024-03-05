@@ -156,7 +156,7 @@ const Hold = styled.div`
 const Circle = styled.div`
   width: 30px;
   height: 30px;
-  border: 1px solid #0f3738;
+  border: 1px solid white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -167,8 +167,8 @@ const Circle = styled.div`
 const Container = styled.div`
   width: 100%;
   height: 60px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color:#181B33;
+  border-bottom: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: flex-end;
