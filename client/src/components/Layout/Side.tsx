@@ -1,18 +1,38 @@
 import styled from "styled-components";
-import logo from "../../assets/react.svg";
-import { AiOutlineHome, AiOutlineCloudUpload } from "react-icons/ai";
-import { BiLogOut } from "react-icons/bi";
-// import { UseAppDispatch } from "../Global/Store";
-// import { adminLogout } from "../Global/ReduxState";
-import { NavLink, useNavigate } from "react-router-dom";
-import Swal from "sweetalert2";
+import logo from "../../assets/exam.jpg";
+import { NavLink} from "react-router-dom";
+import { ImSortNumbericDesc } from "react-icons/im";
+import { MdMarkEmailRead } from "react-icons/md";
+import { FaUserCheck } from "react-icons/fa";
+// import Swal from "sweetalert2";
 
 const Side = () => {
-//   const dispatch = UseAppDispatch();
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
   return (
     <Container>
-      <img src={logo} alt="" />
+        <Box>
+            <Circle>
+            <img src={logo} alt="" />
+            </Circle>
+            <span>Kilmore College</span>
+        </Box>
+      <NavLink
+        to="/dashboard"
+        style={({ isActive }) => {
+          return {
+            background: isActive ? "#f5f5f5" : "",
+            textDecoration: "none",
+            color: isActive ? "red" : "",
+            width: "100%",
+            height: "50px",
+          };
+        }}
+      >
+        <Holder style={{ marginTop: "24px", }}>
+          <Icon size={26} />
+          <span>Username</span>
+        </Holder>
+      </NavLink>
       <NavLink
         to="/dashboard"
         style={({ isActive }) => {
@@ -26,73 +46,81 @@ const Side = () => {
         }}
       >
         <Holder style={{ marginTop: "24px" }}>
-          <Icon size={26} />
-          <span>Home</span>
+          <Icons size={26} />
+          <span>Email</span>
         </Holder>
       </NavLink>
-      <NavLink
-        to="/dashboard/uploads"
-        style={{ textDecoration: "none", color: "black" }}
-      >
-        <Holder>
-          <Icon2 size={26} />
-          <span>Upload Furnitures</span>
-        </Holder>
-      </NavLink>
-      <Holder
-        style={{ marginTop: "120px" }}
-        onClick={() => {
-          Swal.fire({
-            title: "Are you sure you want to LogOut",
-            icon: "warning",
-            html: `<p style = "color:red; margin:0">Changes cannot be retrieved!!!!!!</p>`,
-            showDenyButton: true,
-            showCancelButton: true,
-            confirmButtonText: "Yes",
-            denyButtonText: `No`,
-          }).then((result:any) => {
-            if (result.isConfirmed) {
-              Swal.fire({
-                title: "Logged out successfully",
-                icon: "success",
-                timer: 2000,
-                timerProgressBar: true,
-              });
-            //   dispatch(adminLogout());
-              navigate("/signinadmin");
-            } else if (result.isDenied) {
-              Swal.fire({
-                title: "Changes are not saved",
-                icon: "info",
-                timer: 2000,
-                timerProgressBar: true,
-              });
-            }
-          });
+      <NavLink to={""}
+        style={({ isActive }) => {
+          return {
+            background: isActive ? "#f5f5f5" : "",
+            textDecoration: "none",
+            color: isActive ? "red" : "",
+            width: "100%",
+            height: "50px",
+          };
         }}
       >
-      </Holder>
+        <Holder style={{ marginTop: "24px" }}>
+          <Iconss size={26}/>
+          <span>Matric Number</span>
+        </Holder>
+      </NavLink>
     </Container>
   );
 };
 
 export default Side;
 
-const Icon3 = styled(BiLogOut)`
+const Circle = styled.div`
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
+border: 1px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+
+img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+`
+
+const Box = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+gap: 10px;
+margin-top: 30px;
+
+span{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+}
+`
+
+const Icon = styled(FaUserCheck )`
   margin-left: 30px;
 `;
 
-const Icon2 = styled(AiOutlineCloudUpload)`
+const Icons = styled(MdMarkEmailRead )`
   margin-left: 30px;
 `;
 
-const Icon = styled(AiOutlineHome)`
+const Iconss = styled(ImSortNumbericDesc)`
   margin-left: 30px;
 `;
 
 const Holder = styled.div`
   display: flex;
   align-items: center;
+  /* flex-direction: column; */
   height: 50px;
   color: white;
   cursor: pointer;
@@ -115,6 +143,7 @@ const Container = styled.div`
   height: 100vh;
   position: sticky;
   top: 0%;
+  border-right: 1px solid white;
 
   @media screen and (max-width: 900px) {
     display: none;
